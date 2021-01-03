@@ -1152,6 +1152,7 @@
 			<Value ID="Chinese">中文</Value>
 			<Value ID="Italian">Italiano</Value>
 			<Value ID="Polish">Polski</Value>
+			<Value ID="German">Deutsch</Value>
 		</Enum>
 		<Enum ID="RamPowerOnState">
 			<Value ID="AllZeros">全 0 (默认)</Value>

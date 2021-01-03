@@ -558,6 +558,7 @@ enum class Language
 	Chinese = 9,
 	Italian = 10,
 	Polish = 11,
+	German = 12,
 };
 
 enum class MouseDevice
