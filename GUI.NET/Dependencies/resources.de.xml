@@ -5,7 +5,7 @@
 			<Control ID="mnuFile">Datei</Control>
 			<Control ID="mnuOpen">Öffnen</Control>
 			<Control ID="mnuSaveState">Speichere Zwischenstand</Control>
-			<Control ID="mnuLoadState">SLade Zwischenstand</Control>
+			<Control ID="mnuLoadState">Lade Zwischenstand</Control>
 			<Control ID="mnuLoadLastSession">Lade letzte Sitzung</Control>
 			<Control ID="mnuRecentFiles">Zuletzt verwendete Dateien</Control>
 			<Control ID="mnuExit">Verlassen</Control>
@@ -13,7 +13,7 @@
 			<Control ID="mnuPause">Pause</Control>
 			<Control ID="mnuReset">Zurücksetzen</Control>
 			<Control ID="mnuPowerCycle">Neustarten</Control>
-			<Control ID="mnuReloadRom">ROM erneut laden</Control>
+			<Control ID="mnuReloadRom">ROM neu laden</Control>
 			<Control ID="mnuPowerOff">Ausschalten</Control>
 			<Control ID="mnuSwitchDiskSide">Diskettenseite wechseln</Control>
 			<Control ID="mnuSelectDisk">Diskette auswählen</Control>
@@ -39,7 +39,7 @@
 			<Control ID="mnuEmuSpeedHalf">Halb (50%)</Control>
 			<Control ID="mnuEmuSpeedQuarter">Viertel (25%)</Control>
 			<Control ID="mnuShowFPS">FPS anzeigen</Control>
-			<Control ID="mnuVideoScale">Anzeigegröße</Control>
+			<Control ID="mnuVideoScale">Videogröße</Control>
 			<Control ID="mnuScale1x">1x</Control>
 			<Control ID="mnuScale2x">2x</Control>
 			<Control ID="mnuScale3x">3x</Control>
@@ -50,7 +50,7 @@
 			<Control ID="mnuVideoFilter">Videofilter</Control>
 			<Control ID="mnuNoneFilter">Kein</Control>
 			<Control ID="mnuNtscFilter">NTSC 2x (blargg)</Control>
-			<Control ID="mnuBilinearInterpolation">Bilineare Interpolation nutzen</Control>
+			<Control ID="mnuBilinearInterpolation">Verwende bilineare Interpolation</Control>
 			<Control ID="mnuAudioConfig">Ton</Control>
 			<Control ID="mnuInput">Eingabe</Control>
 			<Control ID="mnuRegion">Region</Control>
@@ -246,7 +246,7 @@
 			<Control ID="lblFullscreenResolution">Vollbildauflöung:</Control>
 			<Control ID="lblRequestedRefreshRate">Gewünschte Bildwiederholrate:</Control>
 			<Control ID="tpgOverscan">Overscan</Control>
-			<Control ID="tpgOverscanGlobal">Allgemein</Control>
+			<Control ID="tpgOverscanGlobal">Global</Control>
 			<Control ID="tpgOverscanGameSpecific">Spielspezifisch</Control>
 			<Control ID="chkEnableGameSpecificOverscan">Aktiviere spielspezifische Overscaneinstellungen</Control>
 			<Control ID="lblLeft">Links</Control>
@@ -333,7 +333,7 @@
 
 			<Control ID="tpgOverclocking">Übertaktung</Control>
 			<Control ID="grpOverclocking">Übertaktung</Control>
-			<Control ID="lblOverclockHint">Übertaktung kann dabei helfen, die Verlangsamung in Spielen zu reduzieren oder zu beseitigen (kann aber auch zu Problemen führen).&#13;Die Übertaktungsvariante mit der höchsten Kompatibilität ist, dem Wert der "Scanline vor NMI" um ein paar hundert Linien zu erhöhen (z.B. 400+)</Control>
+			<Control ID="lblOverclockHint">Übertaktung kann dabei helfen, die Verlangsamung in Spielen zu reduzieren oder zu beseitigen (kann aber auch zu Problemen führen).&#13;Die Übertaktungsvariante mit der höchsten Kompatibilität ist, dem Wert der "Zusätzliche Scanlines vor NMI" um ein paar hundert Linien zu erhöhen (z.B. 400+)</Control>
 			<Control ID="lblClockRate">Taktratenmultiplikator:</Control>
 			<Control ID="lblClockRatePercent">% (Standard: 100%)</Control>
 
@@ -402,7 +402,7 @@
 
 			<Control ID="tpgAdvanced">Erweitert</Control>
 			<Control ID="chkFdsAutoLoadDisk">Automatisch Diskette 1 Seite A einlegen, wenn ein FDS-Spiel gestartet wird</Control>
-			<Control ID="chkFdsFastForwardOnLoad">Automatisch FDS-Spiele vorspulen, wenn Diskette oder BIOS laden</Control>
+			<Control ID="chkFdsFastForwardOnLoad">Automatisch FDS-Spiele vorspulen, wenn Diskette oder BIOS geladen werden</Control>
 			<Control ID="chkFdsAutoInsertDisk">Automatisch Disketten für FDS-Spiele wechseln</Control>
 
 			<Control ID="chkShowFullPathInRecents">Kompletten Dateipfad in den zuletzt verwendeten Dateien anzeigen</Control>
@@ -439,15 +439,15 @@
 			<Control ID="lblVsDualShowVideo">Bild anzeigen für:</Control>
 
 			<Control ID="lblFdsSettings">Famicom Disk System Einstellungen</Control>
-			<Control ID="lblUiDisplaySettings">Benutzeroberfläche Einstellungen</Control>
+			<Control ID="lblUiDisplaySettings">Benutzeroberflächeneinstellungen</Control>
 			<Control ID="lblWindowSettings">Fenstereinstellungen</Control>
 			<Control ID="chkDisableMouseResize">Hauptfenster nicht von der Maus vergrößern oder verkleinern lassen</Control>
 			<Control ID="lblGameSelectionScreenSettings">Spielauswahlbildschirm Einstellungen</Control>
 			<Control ID="chkGameSelectionScreenResetGame">Spiel von Anfang an starten, anstatt die vorige Spielsitzung fortzusetzen</Control>
 			<Control ID="chkDisableGameSelectionScreen">Spielauswahlbildschirm deaktivieren</Control>
 
-			<Control ID="chkDisableGameDatabase">Eingebaute Spieledatenbank deaktivieren</Control>
-			<Control ID="chkDisableHighResolutionTimer">Hochauflösenden Zeitgeber deaktivieren</Control>
+			<Control ID="chkDisableGameDatabase">Deaktiviere eingebaute Spieledatenbank</Control>
+			<Control ID="chkDisableHighResolutionTimer">Deaktiviere hochauflösenden Zeitgeber</Control>
 			<Control ID="chkDisableOsd">Bildschirmanzeige (OSD) deaktivieren</Control>
 
 			<Control ID="chkAlwaysOnTop">Immer vor anderen Fenstern anzeigen</Control>
@@ -481,7 +481,7 @@
 			<Control ID="btnOK">OK</Control>
 			<Control ID="btnCancel">Abbrechen</Control>
 		</Form>
-		<Form ID="frmCheatImport" Title="Cheats importieren">
+		<Form ID="frmCheatImport" Title="Importiere Cheats">
 			<Control ID="grpImportOptions">Importoptionen</Control>
 			<Control ID="lblCheatFile">Cheat-Datei:</Control>
 			<Control ID="lblGame">Spiel:</Control>
@@ -490,7 +490,7 @@
 			<Control ID="btnImport">Importieren</Control>
 			<Control ID="btnCancel">Abbrechen</Control>
 		</Form>
-		<Form ID="frmCheatImport" Title="Cheats importieren">
+		<Form ID="frmCheatImport" Title="Importiere Cheats">
 			<Control ID="grpImportOptions">Importoptionen</Control>
 			<Control ID="lblCheatFile">Cheat-Datei:</Control>
 			<Control ID="lblGame">Spiel:</Control>
@@ -499,9 +499,9 @@
 			<Control ID="btnImport">Importieren</Control>
 			<Control ID="btnCancel">Abbrechen</Control>
 		</Form>
-		<Form ID="frmCheatImportFromDb" Title="Spiel auswählen...">
+		<Form ID="frmCheatImportFromDb" Title="Wähle Spiel...">
 			<Control ID="lblSearch">Suchen:</Control>
-			<Control ID="btnOK">Importieren</Control>
+			<Control ID="btnOK">Importiere Cheats</Control>
 			<Control ID="btnCancel">Abbrechen</Control>
 		</Form>
 		<Form ID="frmCheatList" Title="Cheats">
@@ -675,8 +675,8 @@
 			<Control ID="radStorageDocuments">Speichere die Daten in meinem Benutzerprofil</Control>
 			<Control ID="radStoragePortable">Speichere die Daten am selben Ort wie die Anwendung</Control>
 			<Control ID="lblDataLocation">Ordner:</Control>
-			<Control ID="lblInputMappings">Eingabezurodnung</Control>
-			<Control ID="lblInputHint">Wähle die bevorzugten Eingabemethoden aus:</Control>
+			<Control ID="lblInputMappings">Eingabemethoden</Control>
+			<Control ID="lblInputHint">Wählen Sie die bevorzugten Eingabemethoden:</Control>
 			<Control ID="lblMiscOptions">Weitere Optionen</Control>
 			<Control ID="chkCreateShortcut">Desktopverknüpfung erstellen</Control>
 			<Control ID="btnOk">BESTÄTIGEN</Control>
@@ -844,7 +844,7 @@
 
 		<Message ID="CannotWriteToFolder">In den ausgewählten Ordner kann nicht geschrieben werden - bitte einen anderen Ordner auswählen und nochmals versuchen.&#xA;&#xA;Details:&#xA;{0}</Message>
 		<Message ID="InvalidPaths">Die folgenden geänderten Ordner sind ungültig:&#xA;&#xA;{0}&#xA;&#xA;Bitte nur gültige und beschreibbare Ordner auswählen und erneut versuchen.</Message>
-		<Message ID="CopyMesenDataPrompt">Alle Dateien werden kopiert von:&#xA;&#xA;{0}&#xA;nach&#xA;{1}&#xA;&#xA;Sobald der Kopiervorgang abgeschlossen ist wird Mesen neustarten.&#xA;Continue?</Message>
+		<Message ID="CopyMesenDataPrompt">Alle Dateien werden kopiert von:&#xA;&#xA;{0}&#xA;nach&#xA;{1}&#xA;&#xA;Sobald der Kopiervorgang abgeschlossen ist wird Mesen neustarten.&#xA;Fortsetzen?</Message>
 
 		<Message ID="CheatsFound">{0} Spiele und {1} Cheats sind in der Datenbank</Message>
 		<Message ID="CheatsImported">{0} Cheats wurden für {1} importiert.</Message>
