@@ -31,7 +31,7 @@ namespace Mesen.GUI.Forms
 		German = 12,
 	}
 
-	class ResourceHelper
+	static class ResourceHelper
 	{
 		private static Language _language;
 		private static XmlDocument _resources = new XmlDocument();
